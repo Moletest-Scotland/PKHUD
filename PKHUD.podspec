@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage                  = 'https://github.com/pkluz/PKHUD'
   s.license                   = 'MIT'
   s.author                    = { 'Philip Kluz' => 'Philip.Kluz@gmail.com' }
-  s.platform                  = :ios, '8.0'
-  s.ios.deployment_target     = '8.0'
+  s.platform                  = :ios, '12.1'
+  s.ios.deployment_target     = '12.1'
   s.requires_arc              = true
   s.source                    = { :git => 'https://github.com/pkluz/PKHUD.git', :tag => s.version.to_s }
   s.source_files              = 'PKHUD/**/*.{h,swift}'
